@@ -1,0 +1,27 @@
+db.city.insert{
+    "_id":6,
+    "city_name":"Manali",
+    "city":6,
+    "country_name":"India"
+}
+
+///// find with conditions
+db.restaurant.find(city : '2').pretty()
+
+
+
+
+/////////// api that we require
+get list of city   >  done
+get list of meal   >  done
+get restaurant on the basis of city  > done
+get restaurant on the basis of meal  > done
+get restaurant on the basis of meal+cuisine > done
+get restaurant on the basis of meal+cost > done
+get restaurant details  > done
+post restaurant order > done
+get booking list > done
+
+
+
+////////// 
